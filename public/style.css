@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#container {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+#response {
+    height: 30vh;
+    width: 100%;
+    border: 2px solid black
+
+}

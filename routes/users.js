@@ -31,7 +31,7 @@ usersRt.post('/', [check('name').not().isEmpty().trim(), ], (req, res) => {
         return res.status(400).send({errors: errors.array()})
     }
     users.push(req.body)
-    res.sendStatus(200)
+    res.status(200).json(req.body)
 })
 
 
